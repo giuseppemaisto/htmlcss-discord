@@ -194,6 +194,13 @@ p{
     background-repeat: no-repeat;
     text-align: center;
 }
+.tasto-star{
+    background-color: rgb(66, 66, 204);
+    border-radius: 20px;
+    
+    color: white;
+    
+}
 h3{
     margin-top: 20px;
 }
@@ -238,13 +245,13 @@ footer{
     height: 20px;
 }
 .bottone{
-    background-color: rgb(15, 15, 199);
+    background-color: rgb(66, 66, 204);
     border-radius: 20px;
     color: white;
     font-size: 10px;
 }
 h2{
-    color: rgb(15, 15, 199);
+    color: rgb(66, 66, 204);
 }
 .img-ita{
     margin-top: 30px;
@@ -264,5 +271,5 @@ ul{
     color: white;
 }
 strong{
-    color: rgb(15, 15, 199);
+    color: rgb(66, 66, 204);
 }
