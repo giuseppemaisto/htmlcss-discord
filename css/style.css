@@ -41,7 +41,7 @@ header{
     height: 50px;
     width: 50%;   
 }
-ul{
+.menu{
     list-style-type: none;
     color: white;
     display: flex;
@@ -108,6 +108,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+   
     
     
     
@@ -150,66 +151,118 @@ p{
     font-size: 40px;
     font-family: 'Whitney', sans-serif;
     color: black;
+   
 }
 .testo-centrale3{
     font-size: 40px;
     font-family: 'Whitney', sans-serif;
+
 }
 .paragrafo-centrale{
     font-family: 'Whitney', sans-serif;
 }
 .paragrafo-centrale2{
     font-family: 'Whitney', sans-serif;
-    padding-bottom: 500px;
+    
 }
 
 .background-grey{
     background-color: lightgray;
 }
 .col-green{
-    background-color: transparent;
-    height: 500px;
-    background-size: contain;
+    background-image: url(../img/item4-big.svg);
     background-repeat: no-repeat;
     background-size: 300px;
+    background-position: center;
+}
+ .text{
+    padding-bottom: 50px;
+    align-items: flex-start;
+    color: black;
+    
+ }
+ .titolo{
+    color: black;
+    font-size: 30px;
+ }
+
+.star{
+    margin-top: 30px;
+    color: black;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(42, 41, 41);
 }
 
 .col-30{
-    background-color: palevioletred;
-    border: 1px solid white;
+    background-color: transparent;
     height: 200px;
     width: 30%;
 }
 
 .col-70{
-    background-color: aqua;
+    background-color: transparent;
     height: 200px;
     width: 70%;
-    border: 1px solid white;
+    
 }
 .col-25-footer{
     height: 200px;
     width: 25%;
-    background-color: aqua;
-    border: 1px solid black; 
+    background-color: transparent;
+    
 }
 .container-sm-footer{
     width: 60%;
     margin: 0 auto;
     padding: 20px 0px;
-    border: 1px solid white;
-    background-color: aquamarine;
+    border-top: 1px solid white;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo{
-    background-color: orange;
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 20px;
 }
 .bottone{
-    background-color: orange;
+    background-color: rgb(15, 15, 199);
+    border-radius: 20px;
+    color: white;
+    font-size: 10px;
+}
+h2{
+    color: rgb(15, 15, 199);
+}
+.img-ita{
+    margin-top: 30px;
+}
+.ita{
+    width: 20px;
+}
+span{
+    color: white;
+    font-size: 10px;
+}
+ul{
+    list-style-type: none;
+    font-family: 'Whitney', sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    color: white;
+}
+strong{
+    color: rgb(15, 15, 199);
 }
